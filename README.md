@@ -7,7 +7,7 @@ This project demonstrates the use of linear regression to predict the prices of 
 
 Statistical_Analysis_Linear_Regression.ipynb: The primary Jupyter Notebook containing Python code for implementing and analyzing Linear Regression.
 
-Statistical_Analysis_Report.pdf: A comprehensive report summarizing the findings, visualizations, and key insights from the project.
+Statistical_Analysis_Linear_Regression_Report.pdf: A comprehensive report summarizing the findings, visualizations, and key insights from the project.
 
 dataset.csv: The dataset utilized in the regression analysis, containing independent features and the dependent variable.
 
