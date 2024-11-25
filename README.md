@@ -9,7 +9,7 @@ Statistical_Analysis_Linear_Regression.ipynb: The primary Jupyter Notebook conta
 
 Statistical_Analysis_Linear_Regression_Report.pdf: A comprehensive report summarizing the findings, visualizations, and key insights from the project.
 
-dataset.csv: The dataset utilized in the regression analysis, containing independent features and the dependent variable.
+Linear_Regression_dataset.csv: The dataset utilized in the regression analysis, containing independent features and the dependent variable.
 
 requirements.txt: A list of dependencies required to run the analysis.
 
