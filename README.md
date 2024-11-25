@@ -11,8 +11,6 @@ Statistical_Analysis_Linear_Regression_Report.pdf: A comprehensive report summar
 
 Linear_Regression_dataset.csv: The dataset utilized in the regression analysis, containing independent features and the dependent variable.
 
-requirements.txt: A list of dependencies required to run the analysis.
-
 README.md: This file provides an overview of the project and its key components.
 
 ### Key Objectives
