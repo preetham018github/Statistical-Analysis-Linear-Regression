@@ -1,4 +1,4 @@
-# Statistical Analysis: Linear Regression Implementation and Evaluation
+# Statistical Analysis: Regression Techniques Implementation and Evaluation
 
 ### Overview
 This project demonstrates the use of linear regression to predict the prices of used cars based on multiple features such as mileage, engine volume, year of manufacture, and fuel type. The dataset is cleaned, preprocessed, and exploratory data analysis is performed to derive meaningful insights before building the regression model.
