@@ -1,56 +1,76 @@
 # Statistical Analysis: Regression Techniques Implementation and Evaluation
 
-### Overview
-This project demonstrates the use of linear regression to predict the prices of used cars based on multiple features such as mileage, engine volume, year of manufacture, and fuel type. The dataset is cleaned, preprocessed, and exploratory data analysis is performed to derive meaningful insights before building the regression model.
+## Overview
+This repository contains two projects demonstrating the application of regression techniques: Linear Regression and Logistic Regression. These projects showcase the practical implementation of statistical and machine learning models for predictive analytics and classification tasks.
 
-### Project Structure
+## Project Structure
 
-Statistical_Analysis_Linear_Regression.ipynb: The primary Jupyter Notebook containing Python code for implementing and analyzing Linear Regression.
+### Linear Regression
 
-Statistical_Analysis_Linear_Regression_Report.pdf: A comprehensive report summarizing the findings, visualizations, and key insights from the project.
+Statistical_Analysis_Linear_Regression.ipynb: The primary Jupyter Notebook for implementing and evaluating Linear Regression.
 
-Linear_Regression_dataset.csv: The dataset utilized in the regression analysis, containing independent features and the dependent variable.
+Statistical_Analysis_Linear_Regression_Report.pdf: A detailed report summarizing the findings, visualizations, and insights.
 
-README.md: This file provides an overview of the project and its key components.
+Linear_Regression_dataset.csv: Dataset used for the Linear Regression analysis.
 
-### Key Objectives
+### Logistic Regression
 
-Understand Linear Regression:
-Grasp the theoretical framework of Linear Regression.
-Implement the model using Python libraries like scikit-learn and statsmodels.
+Statistical_Analysis_Logistic_Regression.ipynb: The primary Jupyter Notebook for implementing and evaluating Logistic Regression.
 
-Explore Data Relationships:
-Conduct exploratory data analysis (EDA) to uncover patterns in the dataset.
-Handle missing values and prepare data for modeling.
+Statistical_Analysis_Logistic_Regression_Report.pdf: A detailed report summarizing the findings, visualizations, and insights.
 
-Evaluate Model Assumptions:
-Test the assumptions of OLS, such as linearity, independence, homoscedasticity, and normality of residuals.
+Bank_data.csv: Dataset used for training the Logistic Regression model.
 
-Analyze Model Performance:
-Use metrics such as R-squared and Mean Squared Error (MSE) to evaluate the model.
-Perform residual analysis to validate the reliability of predictions.
+Bank_data_testing.csv: Dataset used for testing and evaluating the model.
 
-### Steps Covered
+## Key Objectives
 
-Data Preprocessing:
-Clean and transform raw data into a format suitable for analysis.
+### Linear Regression
 
-Exploratory Data Analysis (EDA):
-Visualize data distributions and correlations.
-Detect and address outliers.
+Predict car prices based on features like mileage, engine volume, year of manufacture, and fuel type.
 
-Model Development:
-Fit the Linear Regression model using Python libraries.
-Compare results from different modeling approaches.
+Understand the theoretical foundation of Linear Regression and its assumptions.
 
-Model Validation:
-Examine residuals and other diagnostics to ensure adherence to OLS assumptions.
+Evaluate model performance using metrics such as R-squared and Mean Squared Error (MSE).
 
-Conclusions:
-Present actionable insights derived from the model.
-Identify limitations and propose potential enhancements.
+Conduct residual analysis and validate assumptions for Ordinary Least Squares (OLS).
 
-### Tools and Technologies
+### Logistic Regression
+Classify binary outcomes using Logistic Regression.
+
+Preprocess and clean datasets for effective modeling.
+
+Evaluate model performance using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
+
+Visualize classification results and assess model reliability.
+
+## Steps Covered
+
+### Linear Regression
+
+Data Preprocessing: Cleaned and transformed raw data into a format suitable for analysis.
+
+Exploratory Data Analysis (EDA): Uncovered patterns and relationships in the dataset.
+
+Model Development: Built and evaluated the Linear Regression model.
+
+Model Validation: Performed residual analysis to validate the assumptions of OLS.
+
+Conclusions: Derived actionable insights and identified limitations.
+
+### Logistic Regression
+
+Data Preprocessing: Cleaned and split datasets into training and testing sets.
+
+Exploratory Data Analysis (EDA): Explored data relationships and visualized patterns.
+
+Model Development: Built and evaluated the Logistic Regression model.
+
+Performance Evaluation: Assessed the model using classification metrics and visualized results.
+
+Conclusions: Summarized insights and potential improvements.
+
+## Tools and Technologies
 
 Programming Language: Python
 
@@ -58,6 +78,11 @@ Libraries: numpy, pandas, matplotlib, seaborn, statsmodels, scikit-learn
 
 Visualization Tools: Matplotlib and Seaborn
 
-### Results
-The model successfully predicts car prices with an acceptable level of accuracy, demonstrating the viability of linear regression for this use case.
+## Results
+
+### Linear Regression
+The Linear Regression model successfully predicts car prices, demonstrating an acceptable level of accuracy and adherence to OLS assumptions.
+
+### Logistic Regression
+The Logistic Regression model effectively classifies binary outcomes, with robust evaluation metrics such as accuracy, precision, recall, and ROC-AUC validating its performance.
 
