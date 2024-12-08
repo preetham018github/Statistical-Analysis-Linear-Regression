@@ -84,5 +84,5 @@ Visualization Tools: Matplotlib and Seaborn
 The Linear Regression model successfully predicts car prices, demonstrating an acceptable level of accuracy and adherence to OLS assumptions.
 
 ### Logistic Regression
-The Logistic Regression model effectively classifies binary outcomes, with robust evaluation metrics such as accuracy, precision, recall, and ROC-AUC validating its performance.
+The Logistic Regression model effectively classifies binary outcomes, with evaluation metrics such as accuracy and confusion matrix analysis validating its performance.
 
